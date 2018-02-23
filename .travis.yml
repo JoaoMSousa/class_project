@@ -1,0 +1,20 @@
+# main laguage
+language: python
+
+# Run things with python 3.5
+python:
+    - "3.5"
+    
+# notifications
+notifications:
+    email: false
+    
+#dependencies
+install:
+    - pip install numpy
+    - pip install pytest
+    - pip install matplotlib
+    
+# Run tests
+script:
+    - py.test
