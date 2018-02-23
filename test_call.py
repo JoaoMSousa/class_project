@@ -1,4 +1,4 @@
 import GOL_project as GOL
 
-run ./GOL_project --grid-size 32
+run ./GOL_project.py --grid-size 32
 
